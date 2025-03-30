@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boutique Seniors</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+        header, footer {
+            background: #7C4DFF;
+            color: white;
+            padding: 15px;
+        }
+        nav {
+            background: #D1C4E9;
+            padding: 10px;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+        }
+        .container {
+            padding: 20px;
+        }
+        .products {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .product {
+            border: 1px solid #ccc;
+            margin: 10px;
+            padding: 15px;
+            width: 250px;
+            border-radius: 10px;
+            background: #f9f9f9;
+        }
+        .product img {
+            width: 100%;
+            border-radius: 10px;
+        }
+        .btn {
+            display: inline-block;
+            background: #7C4DFF;
+            color: white;
+            padding: 10px;
+            margin-top: 10px;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Boutique Seniors</h1>
+    </header>
+    <nav>
+        <a href="#products">Produits</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <div class="container">
+        <section id="products">
+            <h2>Nos Produits</h2>
+            <div class="products">
+                <div class="product">
+                    <img src="https://via.placeholder.com/250" alt="Produit 1">
+                    <h3>Chaise Confort</h3>
+                    <p>Une chaise ergonomique adaptée aux seniors.</p>
+                    <a href="#" class="btn">Acheter</a>
+                </div>
+                <div class="product">
+                    <img src="https://via.placeholder.com/250" alt="Produit 2">
+                    <h3>Canne de marche</h3>
+                    <p>Une canne légère et résistante.</p>
+                    <a href="#" class="btn">Acheter</a>
+                </div>
+                <div class="product">
+                    <img src="https://via.placeholder.com/250" alt="Produit 3">
+                    <h3>Montre Santé</h3>
+                    <p>Surveillez votre tension et fréquence cardiaque.</p>
+                    <a href="#" class="btn">Acheter</a>
+                </div>
+            </div>
+        </section>
+        <section id="contact">
+            <h2>Contactez-nous</h2>
+            <p>Email : contact@boutiqueseniors.com</p>
+            <p>Téléphone : 01 23 45 67 89</p>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2025 Boutique Seniors - Tous droits réservés</p>
+    </footer>
+</body>
+</html>
